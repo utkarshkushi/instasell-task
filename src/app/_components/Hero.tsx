@@ -1,7 +1,7 @@
 'use client'
 import { AppProvider, Button, Icon } from '@shopify/polaris'
 import React from 'react'
-import '@shopify/polaris/build/esm/styles.css';
+
 import enTranslations from '@shopify/polaris/locales/en.json';
 import { AlertCircle, AlertTriangle } from 'lucide-react';
 import {
@@ -13,8 +13,8 @@ type Props = {}
 
 const Hero = (props: Props) => {
   return (
-    <div className=" bg-[url('/bg.png')] py-10 pb-16 px-16 bg-[#FEA919]/5">
-        <h1 className='text-4xl text-[#4A4A4A] font-inter font-bold'>
+    <div className=" bg-[url('/bg.png')] py-10 pb-16 px-16 bg-[#FFFDFA]/5">
+        <h1 className='text-[24px] text-[#4A4A4A] font-inter font-bold'>
             Welcome, John Mathew!!
         </h1>
         <div className='flex gap-3 mt-10'>

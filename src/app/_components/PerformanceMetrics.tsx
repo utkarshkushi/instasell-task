@@ -1,5 +1,6 @@
 import React from 'react'
 import TimeLineTabs from './TimeLineTabs'
+import Piechart from './Piechart'
 
 type Props = {}
 
@@ -13,6 +14,8 @@ const PerformanceMetrics = (props: Props) => {
             </h1>
 
             <TimeLineTabs />
+
+            <Piechart />
 
         </div>
     )

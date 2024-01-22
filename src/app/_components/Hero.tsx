@@ -19,7 +19,7 @@ const Hero = (props: Props) => {
         </h1>
         <div className='flex gap-3 mt-10'>
 
-        <div className='px-5 py-3 max-w-[340px] bg-white rounded-lg border-2 border-[#cfcdcd] flex flex-col gap-2'>
+        <div className='px-5 py-3 max-w-[340px] bg-white rounded-lg border-2 border-[#cfcdcd] flex flex-col justify-between gap-2'>
                 <h1 className='text-[14px] text-[#4A4A4A] font-inter font-bold'>Order Sync Successful</h1>
                 <h1 className='text-[13px] text-[#2e2e2e] font-inter font-normal mb-5'>Your order details from the last 30 days have been successfully synced. Check them out now!</h1>
                 <AppProvider i18n={enTranslations}>

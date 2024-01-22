@@ -9,7 +9,7 @@ const Navbar = (props: Props) => {
     const [pagesOpen, setPagesOpen] = useState(false);
 
     return (
-        <div className='flex px-10 pt-5 pb-4 items-center justify-between border-b-2 border-[#8A8A8A]'>
+        <div className=' bg-white flex px-16 pt-5 pb-4 items-center justify-between border-b-2 border-[#8A8A8A]'>
 
             <div className='flex gap-5'>
                 <a className='group text-[#4A4A4A] transition-all cursor-pointer duration-300 ease-in-out' href='#'>
@@ -54,7 +54,7 @@ const Navbar = (props: Props) => {
 
                 <div className='flex border-b-2 border-[#4A4A4A] gap-2 px-1 py-2'>
                     <Search className='w-5 h-5' color='#4A4A4A' />
-                    <input type="text" className='font-inter w-20 font-normal focus:outline-none flex-1 text-sm' placeholder='Search' />
+                    <input style={{background: 'none'}} type="text" className='font-inter w-20 font-normal focus:outline-none bg-none flex-1 text-sm navbar-input' placeholder='Search' />
                 </div>
 
                 <div className='flex items-center gap-1 justify-center cursor-pointer'>

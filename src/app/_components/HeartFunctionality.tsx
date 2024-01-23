@@ -12,7 +12,7 @@ const HeartFunctionality = (props: Props) => {
         Discover the Heart of Our Functionality
             </h1>
 
-        <div className='mt-10 flex'>
+        <div className='mt-10 flex gap-3'>
             <ColorpickerCard />
             <IntegrationCard />
             <HtmlConfigurationCard />

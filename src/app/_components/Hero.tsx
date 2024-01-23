@@ -13,7 +13,7 @@ type Props = {}
 
 const Hero = (props: Props) => {
   return (
-    <div className=" bg-[url('/bg.png')] py-10 pb-16 px-16 bg-[#FFFDFA]/5">
+    <div className=" bg-[url('/bg.png')] py-10 pb-16 px-16 bg-[#fffcf9]">
         <h1 className='text-[24px] text-[#4A4A4A] font-inter font-bold'>
             Welcome, John Mathew!!
         </h1>

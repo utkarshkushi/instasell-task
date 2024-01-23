@@ -5,7 +5,7 @@ type Props = {}
 
 const StatsCards = (props: Props) => {
   return (
-    <div className='px-4 py-4 w-[450px]  bg-white rounded-lg flex flex-col border-2 border-gray-300'>
+    <div className='px-4 py-4 w-[450px]  bg-white rounded-lg flex flex-col border-2 border-gray-200'>
 
                     <div className='flex items-center justify-between'>
                         <h1 className='text-[14px] text-[#4A4A4A] font-inter font-semibold'>Shipment Updates</h1>

@@ -22,7 +22,7 @@ const TimeLineTabs = (props: Props) => {
                     <h1 className='text-[13px] font-inter font-semibold text-[#4A4A4A]'>Last Year</h1>
                 </div>
                 <div onClick={() => setTimeLinetab(5)} className={`flex gap-2 justify-center items-center p-3 rounded-md cursor-pointer ${timelineTab == 5 ? (`bg-violet border-2 border-[#8051FF] bg-[#F8F7FF]`) : (`bg-white`)}`}>
-                    <h1 className='text-[13px] font-inter font-semibold text-[#4A4A4A]'>Customize Timeline</h1>
+                    <h1 className='text-[13px] font-inter font-semibold text-[#4A4A4A]'>Customize Time Line</h1>
                     <Icon source={CalendarIcon} tone="base" />
                 </div>
             </div>

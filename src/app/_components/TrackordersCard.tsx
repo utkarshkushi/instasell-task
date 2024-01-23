@@ -9,7 +9,7 @@ type Props = {}
 
 const TrackordersCard = (props: Props) => {
     return (
-        <div className='px-4 py-4 w-[450px] bg-white rounded-lg flex flex-col border-2 border-gray-300'>
+        <div className='px-4 py-4 w-[450px] bg-white rounded-lg flex flex-col border-2 border-gray-200'>
             <h1 className='text-[14px] text-[#4A4A4A] font-inter font-semibold'>Tracking Page Views Vs Orders</h1>
             <h1 className='text-[13px] text-[#4A4A4A] font-inter font-normal mt-5'>Understand user engagement patterns and optimize your tracking page for enhanced customer experiences.</h1>
 

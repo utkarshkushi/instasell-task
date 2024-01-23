@@ -3,6 +3,7 @@ import Navbar from "./_components/Navbar";
 import Hero from "./_components/Hero";
 import PerformanceMetrics from "./_components/PerformanceMetrics";
 import '@shopify/polaris/build/esm/styles.css';
+import HeartFunctionality from "./_components/HeartFunctionality";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <PerformanceMetrics />
+      <HeartFunctionality />
     </div>
     
   

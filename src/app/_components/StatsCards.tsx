@@ -1,9 +1,11 @@
-import React from 'react'
+'use client'
+import React, { useState } from 'react'
 import Piechart from './Piechart'
 
 type Props = {}
 
 const StatsCards = (props: Props) => {
+    const [shipment, setShipment] = useState(1);
   return (
     <div className='px-4 py-4 w-[450px]  bg-white rounded-lg flex flex-col border-2 border-gray-200'>
 
@@ -12,11 +14,11 @@ const StatsCards = (props: Props) => {
                         <h1 className='text-[14px] text-[#4A4A4A] font-inter font-normal'>Total orders: 392</h1> 
                     </div>
                     <div className=' mt-5 flex items-center gap-3 overflow-x-scroll scroll-div'>
-                        <h1 className='text-[13px] cursor-pointer whitespace-nowrap rounded-md text-[#4A4A4A] text-center px-3 py-2 font-inter font-semibold bg-[#F1F1F1]'>Delivered</h1>
-                        <h1 className='text-[13px] cursor-pointer whitespace-nowrap rounded-md text-[#4A4A4A] text-center px-3 py-2 font-inter font-semibold bg-[#F1F1F1]'>Out for delivery</h1> 
-                        <h1 className='text-[13px] cursor-pointer whitespace-nowrap rounded-md text-[#4A4A4A] text-center px-3 py-2 font-inter font-semibold bg-[#F1F1F1]'>Intrasit</h1> 
-                        <h1 className='text-[13px] cursor-pointer whitespace-nowrap rounded-md text-[#4A4A4A] text-center px-3 py-2 font-inter font-semibold bg-[#F1F1F1]'>Pending</h1> 
-                        <h1 className='text-[13px] cursor-pointer whitespace-nowrap rounded-md text-[#4A4A4A] text-center px-3 py-2 font-inter font-semibold bg-[#F1F1F1]'>Exception</h1>
+                        <h1 onClick={() => setShipment(1)} className={`text-[13px] cursor-pointer whitespace-nowrap rounded-md text-[#4A4A4A] text-center px-3 py-2 font-inter font-semibold ${shipment == 1 ? (`bg-[#FFF1E3]`) : (`bg-[#F1F1F1]`)} `}>Delivered</h1>
+                        <h1 onClick={() => setShipment(2)} className={`text-[13px] cursor-pointer whitespace-nowrap rounded-md text-[#4A4A4A] text-center px-3 py-2 font-inter font-semibold ${shipment == 2 ? (`bg-[#FFF1E3]`) : (`bg-[#F1F1F1]`)} `}>Out for delivery</h1> 
+                        <h1 onClick={() => setShipment(3)} className={`text-[13px] cursor-pointer whitespace-nowrap rounded-md text-[#4A4A4A] text-center px-3 py-2 font-inter font-semibold ${shipment == 3 ? (`bg-[#FFF1E3]`) : (`bg-[#F1F1F1]`)} `}>Intrasit</h1> 
+                        <h1 onClick={() => setShipment(4)} className={`text-[13px] cursor-pointer whitespace-nowrap rounded-md text-[#4A4A4A] text-center px-3 py-2 font-inter font-semibold ${shipment == 4 ? (`bg-[#FFF1E3]`) : (`bg-[#F1F1F1]`)} `}>Pending</h1> 
+                        <h1 onClick={() => setShipment(5)} className={`text-[13px] cursor-pointer whitespace-nowrap rounded-md text-[#4A4A4A] text-center px-3 py-2 font-inter font-semibold ${shipment == 5 ? (`bg-[#FFF1E3]`) : (`bg-[#F1F1F1]`)} `}>Exception</h1>
                     </div>
 
                     <div className='flex justify-center items-center'>

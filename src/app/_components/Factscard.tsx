@@ -6,11 +6,11 @@ type Props = {}
 
 const FactsCard = (props: Props) => {
   return (
-    <div className='px-3 py-3  w-[18%] bg-[#956F00] rounded-lg flex flex-col justify-between'>
+    <div className='px-4 py-4 w-[220px] bg-[#956F00] rounded-lg flex flex-col justify-between'>
 
       <div className='flex items-center justify-between'>
         <h1 className='text-[14px] relative bottom-5 text-[#FFFFFF] font-inter font-semibold'>Star Facts about your orders!!!</h1>
-        <svg className='relative left-3 top-40' xmlns="http://www.w3.org/2000/svg" width="71" height="78" viewBox="0 0 71 78" fill="none">
+        <svg className='relative left-5 top-40' xmlns="http://www.w3.org/2000/svg" width="71" height="78" viewBox="0 0 71 78" fill="none">
           <g opacity="0.2" filter="url(#filter0_f_2001_487)">
             <circle cx="39" cy="39" r="35" fill="#FFEBD5" />
           </g>

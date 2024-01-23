@@ -18,7 +18,7 @@ const PerformanceMetrics = (props: Props) => {
 
             <TimeLineTabs />
 
-            <div className='mt-10 flex gap-3 justify-center'>
+            <div className='mt-10 flex gap-5'>
                 <StatsCards />
                 <FactsCard />
                 <TrackordersCard />

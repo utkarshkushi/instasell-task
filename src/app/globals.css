@@ -11,3 +11,6 @@
   }
 }
 
+.scroll-div::-webkit-scrollbar{
+  display: none;
+}

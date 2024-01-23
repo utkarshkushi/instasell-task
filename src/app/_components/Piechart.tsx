@@ -18,8 +18,9 @@ const Piechart = (props: Props) => {
         { name: 'Group B', value: 300 },
         { name: 'Group C', value: 300 },
         { name: 'Group D', value: 200 },
+        { name: 'Group D', value: 200 },
     ]);
-    const [COLORS, setCOLORS] = useState(['#0088FE', '#00C49F', '#FFBB28', '#FF8042']);
+    const [COLORS, setCOLORS] = useState(['#E5A500', '#956F00', '#5E4200', '#FFDDB6', '#FFC879']);
 
     // useEffect(() => {
     //     data.map((ele) => {
@@ -33,12 +34,12 @@ const Piechart = (props: Props) => {
     
 
     return (
-        <PieChart width={800} height={400}>
+        <PieChart height={200} width={200}>
 
             <Pie
                 data={data}
-                cx={120}
-                cy={200}
+                cx={100}
+                cy={100}
                 innerRadius={30}
                 outerRadius={80}
                 fill="#8884d8"

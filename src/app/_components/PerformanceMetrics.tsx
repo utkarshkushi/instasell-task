@@ -1,6 +1,9 @@
 import React from 'react'
 import TimeLineTabs from './TimeLineTabs'
 import Piechart from './Piechart'
+import StatsCards from './StatsCards'
+import FactsCard from './Factscard'
+import TrackordersCard from './TrackordersCard'
 
 type Props = {}
 
@@ -15,7 +18,13 @@ const PerformanceMetrics = (props: Props) => {
 
             <TimeLineTabs />
 
-            <Piechart />
+            <div className='mt-10 flex gap-3 justify-center'>
+                <StatsCards />
+                <FactsCard />
+                <TrackordersCard />
+            </div>
+
+            
 
         </div>
     )

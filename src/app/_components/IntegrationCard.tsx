@@ -33,7 +33,7 @@ const IntegrationCard = (props: Props) => {
             </div>
             <AppProvider i18n={enTranslations}>
                     <div className='flex gap-1.5'>
-                    <Button size="large" variant="primary">Explore Integration</Button>
+                    <Button size="large" variant="primary">Explore Integrations</Button>
                     </div>
                 </AppProvider>
         </div>

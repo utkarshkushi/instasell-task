@@ -23,7 +23,7 @@ const ColorpickerCard = (props: Props) => {
     }
 
   return (
-    <div className='px-4 py-4 w-[330px]  bg-white rounded-lg flex flex-col border-2 border-gray-300'>
+    <div className='px-4 py-4 w-[330px]  bg-white rounded-lg flex flex-col justify-between border-2 border-gray-300'>
         <h1 className='text-[14px] text-[#4A4A4A] font-inter font-semibold'>Elevate Your Brand Aesthetics with Custom Tracking Page Styles</h1>
             <h1 className='text-[13px] text-[#4A4A4A] font-inter font-normal mt-5'>Immerse your customers in a branded experience by personalizing the colors on your tracking page. </h1>
 

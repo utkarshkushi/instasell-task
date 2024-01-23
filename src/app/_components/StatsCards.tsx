@@ -16,8 +16,6 @@ const StatsCards = (props: Props) => {
                         <h1 className='text-[13px] cursor-pointer whitespace-nowrap rounded-md text-[#4A4A4A] text-center px-3 py-2 font-inter font-semibold bg-[#F1F1F1]'>Out for delivery</h1> 
                         <h1 className='text-[13px] cursor-pointer whitespace-nowrap rounded-md text-[#4A4A4A] text-center px-3 py-2 font-inter font-semibold bg-[#F1F1F1]'>Intrasit</h1> 
                         <h1 className='text-[13px] cursor-pointer whitespace-nowrap rounded-md text-[#4A4A4A] text-center px-3 py-2 font-inter font-semibold bg-[#F1F1F1]'>Pending</h1> 
-                        <h1 className='text-[13px] cursor-pointer whitespace-nowrap rounded-md text-[#4A4A4A] text-center px-3 py-2 font-inter font-semibold bg-[#F1F1F1]'>Exception</h1> 
-                        <h1 className='text-[13px] cursor-pointer whitespace-nowrap rounded-md text-[#4A4A4A] text-center px-3 py-2 font-inter font-semibold bg-[#F1F1F1]'>Exception</h1> 
                         <h1 className='text-[13px] cursor-pointer whitespace-nowrap rounded-md text-[#4A4A4A] text-center px-3 py-2 font-inter font-semibold bg-[#F1F1F1]'>Exception</h1>
                     </div>
 

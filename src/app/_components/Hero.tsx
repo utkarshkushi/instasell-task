@@ -41,7 +41,7 @@ const Hero = (props: Props) => {
 
             <div className='px-5 py-3 max-w-[340px] bg-[#EAF4FF] rounded-lg border-2 border-[#cfcdcd] flex flex-col gap-2'>
             <div className='flex gap-2 items-center'> <AlertCircle size={16} color='#4A4A4A'/> <h1 className='text-[14px] text-[#4A4A4A] font-inter font-bold'>Your Tracking Link has been generated</h1></div>
-                <h1 className='text-[13px] text-[#4A4A4A] font-inter font-normal mb-5'>Include the <span className='text-[#005BD3] underline'>Link</span> to Your Store's Navigation Menu.</h1>
+                <h1 className='text-[13px] text-[#4A4A4A] font-inter font-normal mb-5'>Include the <span className='text-[#005BD3] underline'>Link</span> to Your Store&apos;s Navigation Menu.</h1>
                 <AppProvider i18n={enTranslations}>
                     <div className='flex gap-1.5'>
                     <Button size="large">Copy Link</Button>

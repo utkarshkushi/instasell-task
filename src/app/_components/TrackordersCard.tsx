@@ -4,6 +4,7 @@ import React from 'react'
 import { AppProvider, Icon } from '@shopify/polaris'
 import enTranslations from '@shopify/polaris/locales/en.json';
 import { OrderIcon, ViewIcon } from '@shopify/polaris-icons';
+import { Eye, Inbox } from 'lucide-react';
 
 type Props = {}
 
@@ -22,7 +23,7 @@ const TrackordersCard = (props: Props) => {
                     </div>
                     <div className='flex justify-center items-center mr-6'>
 
-                        <OrderIcon height={56} width={56} />
+                        <Inbox size={56} color='#4A4A4A' />
 
                     </div>
 
@@ -36,7 +37,7 @@ const TrackordersCard = (props: Props) => {
                     </div>
                     <div className='flex justify-center items-center mr-6'>
 
-                        <ViewIcon height={56} width={56} />
+                        <Eye size={56} color='#4A4A4A' />
 
                     </div>
 

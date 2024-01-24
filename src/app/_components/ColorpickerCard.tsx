@@ -6,9 +6,9 @@ import React, { ChangeEvent, useState } from 'react'
 type Props = {}
 
 const ColorpickerCard = (props: Props) => {
-    const [accentColor, setAccentColor] = useState('FF9898');
-    const [textColor, setTextColor] = useState('571010');
-    const [bgColor, setBgColor] = useState('FFEAEA');
+    const [accentColor, setAccentColor] = useState('#FF9898');
+    const [textColor, setTextColor] = useState('#571010');
+    const [bgColor, setBgColor] = useState('#FFEAEA');
 
     const handleAccentColorChange = (event: ChangeEvent<HTMLInputElement>) => {
         setAccentColor(event.target.value)
@@ -32,7 +32,7 @@ const ColorpickerCard = (props: Props) => {
                     <h1 className='text-[13px] font-inter font-normal text-[#0d0d0d]'>Accent Color</h1>
                     <div className='flex gap-3'>
                         <input value={accentColor} onChange={handleAccentColorChange} className='border-2 flex-1 rounded-lg border-gray-200 focus:outline-none px-3 py-1' type="text" />
-                        <div style={{backgroundColor: '#' + accentColor}} className='px-6 p-3 rounded-lg'></div>
+                        <input type="color" value={accentColor} onChange={handleAccentColorChange} />
                     </div>
                 </div>
 
@@ -40,7 +40,7 @@ const ColorpickerCard = (props: Props) => {
                     <h1 className='text-[13px] font-inter font-normal text-[#0d0d0d]'>Text Color</h1>
                     <div className='flex gap-3'>
                         <input value={textColor} onChange={handleTextColorChange} className='border-2 flex-1 rounded-lg border-gray-200 focus:outline-none px-3 py-1' type="text" />
-                        <div style={{backgroundColor: '#' + textColor}} className='px-6 p-3 rounded-lg'></div>
+                        <input type="color" value={textColor} onChange={handleTextColorChange} />
                     </div>
                 </div>
 
@@ -48,7 +48,10 @@ const ColorpickerCard = (props: Props) => {
                     <h1 className='text-[13px] font-inter font-normal text-[#0d0d0d]'>Background Color</h1>
                     <div className='flex gap-3'>
                         <input value={bgColor} onChange={handleBgColorChange} className='border-2 flex-1 rounded-lg border-gray-200 focus:outline-none px-3 py-1' type="text" />
-                        <div style={{backgroundColor: '#' + bgColor}} className='px-6 p-3 rounded-lg'></div>
+                        {/* <div style={{backgroundColor: '#' + bgColor}} className='px-6 p-3 rounded-lg'></div> */}
+                        
+                        <input type="color" value={bgColor}  onChange={handleBgColorChange} />
+                        
                     </div>
                 </div>
             </div>
